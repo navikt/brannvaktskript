@@ -14,7 +14,7 @@ val tor = "Torsdag"
 val fre = "Fredag "
 
 val dagerIgjenDenneUka = listOf(man, tir, ons, tor, fre)
-val personerPåJobbDenneUka = setOf(are, kjetil, mads, joar)
+val personerPåJobbDenneUka = setOf(are, kjetil, mads, joar, vilde, frode)
 
 fun print(dag: String, person: String) {
     val padding = dagerIgjenDenneUka.maxOf { it.length }
