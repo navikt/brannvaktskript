@@ -14,7 +14,14 @@ val tor = "Torsdag"
 val fre = "Fredag "
 
 val dagerIgjenDenneUka = listOf(man, tir, ons, tor, fre)
-val personerPåJobbDenneUka = setOf(are, kjetil, mads, joar, vilde, frode)
+val personerPåJobbDenneUka = setOf(
+    are,
+    kjetil,
+    mads,
+    joar,
+    vilde,
+    frode
+)
 
 fun print(dag: String, person: String) {
     val padding = dagerIgjenDenneUka.maxOf { it.length }
@@ -30,7 +37,10 @@ fun loop(dager: List<String>, personer: List<String>) {
     }
 }
 
-println()
+println(
+    "${personerPåJobbDenneUka.size} personer er med i lotteriet: " +
+            personerPåJobbDenneUka.map { it.replace("@", "") }.sorted().joinToString(", ")
+)
 println("Ukas brannvakter:")
 loop(dagerIgjenDenneUka, personerPåJobbDenneUka.shuffled())
 println()
