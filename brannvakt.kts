@@ -16,10 +16,10 @@ val fre = "Fredag "
 val dagerIgjenDenneUka = listOf(man, tir, ons, tor, fre)
 val personerPåJobbDenneUka = setOf(
     are,
-    kjetil,
+    // kjetil,
     mads,
     joar,
-    vilde,
+    // vilde,
     frode
 )
 
@@ -37,10 +37,10 @@ fun loop(dager: List<String>, personer: List<String>) {
     }
 }
 
-println(
-    "${personerPåJobbDenneUka.size} personer er med i lotteriet: " +
-            personerPåJobbDenneUka.map { it.replace("@", "") }.sorted().joinToString(", ")
-)
 println("Ukas brannvakter:")
 loop(dagerIgjenDenneUka, personerPåJobbDenneUka.shuffled())
+println(
+    "${personerPåJobbDenneUka.size} personer var med i lotteriet: " +
+            personerPåJobbDenneUka.map { it.replace("@", "") }.sorted().joinToString(", ")
+)
 println()
