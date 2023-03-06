@@ -16,10 +16,10 @@ val fre = "Fredag "
 val dagerIgjenDenneUka = listOf(man, tir, ons, tor, fre)
 val personerPåJobbDenneUka = setOf(
     are,
-    // kjetil,
+    kjetil,
     mads,
     joar,
-    // vilde,
+    vilde,
     frode
 )
 
