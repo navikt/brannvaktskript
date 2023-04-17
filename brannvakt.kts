@@ -39,6 +39,7 @@ fun loop(dager: List<String>, personer: List<String>) {
 
 println("Ukas brannvakter:")
 loop(dagerIgjenDenneUka, personerPåJobbDenneUka.shuffled())
+println("Generert av Ares 'LotteryTech 3000 Futurecom Digital-Deluxe'")
 println(
     "${personerPåJobbDenneUka.size} personer var med i lotteriet: " +
             personerPåJobbDenneUka.map { it.replace("@", "") }.sorted().joinToString(", ")
