@@ -4,7 +4,6 @@ val are = "@are.husby"
 val kjetil = "@kjetil.svalestuen"
 val joar = "@joar.aurdal"
 val frode = "@frode.ankill.kampe"
-val mads = "@mads.lee.giil"
 val vilde = "@vilde.stefferud"
 
 val man = "Mandag "
@@ -17,7 +16,6 @@ val dagerIgjenDenneUka = listOf(man, tir, ons, tor, fre)
 val personerPåJobbDenneUka = setOf(
     are,
     kjetil,
-    mads,
     joar,
     vilde,
     frode
