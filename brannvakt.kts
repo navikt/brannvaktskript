@@ -5,6 +5,7 @@ val kjetil = "@kjetil.svalestuen"
 val joar = "@joar.aurdal"
 val frode = "@frode.ankill.kampe"
 val vilde = "@vilde.stefferud"
+val erlend = "@erlend.wiklem"
 
 val man = "Mandag "
 val tir = "Tirsdag"
@@ -18,7 +19,8 @@ val personerPåJobbDenneUka = setOf(
     kjetil,
     joar,
     vilde,
-    frode
+    frode,
+    erlend
 )
 
 fun print(dag: String, person: String) {
