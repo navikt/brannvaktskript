@@ -1,7 +1,6 @@
 #!/home/areh/.sdkman/candidates/kotlin/current/bin/kotlinc -script
 
 val are = "@are.husby"
-val kjetil = "@kjetil.svalestuen"
 val joar = "@joar.aurdal"
 val frode = "@frode.ankill.kampe"
 val vilde = "@vilde.stefferud"
@@ -16,9 +15,8 @@ val fre = "Fredag "
 val dagerIgjenDenneUka = listOf(man, tir, ons, tor, fre)
 val personerPåJobbDenneUka = setOf(
     are,
-    kjetil,
     joar,
-    vilde,
+//    vilde,
     frode,
     erlend
 )
